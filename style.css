@@ -1,0 +1,685 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    min-height: 100vh;
+    width: 100vw;
+}
+.logo{
+    width: 100%;
+    height: 100px;
+    line-height: 80px;
+position: fixed;    
+background-color: white;
+padding: 30px 100px;
+z-index: 1;
+}
+.logo img{
+    float: left;
+cursor: pointer;
+}
+ nav ul{ 
+    float: right;
+    position: relative;
+    bottom: 20px;
+    left: 60px;  
+}
+nav li{
+    display: inline-block;
+    list-style: none;   
+}
+ nav li a{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color:black;
+    text-decoration: none;   
+}
+#but{
+    
+    background-color: rgb(0, 0, 252);
+    line-height: 40px;
+    width: 112px;
+    color: white;
+    float: right;
+    border: none;
+     position: relative;
+    bottom: -18px;
+} 
+
+#href{
+    color: aliceblue;
+}
+button :hover{
+    color: #000;
+    background-color: #000;
+    transition: 0.5s;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+   
+
+}
+.img-one{
+    width: 100%;
+}
+.intro{
+    position: relative;
+    bottom: 450px;
+    line-height: 75px;
+    left: 100px;
+
+}
+#first{
+    border-radius: 5
+    0px;
+    color: white;
+    background-color: blue;
+    border: none;
+padding: 20px 30px;    
+}
+#second{
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#third{
+    font-size: 50px;
+    color: blue;
+}
+#fifth{
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+    border: none;
+    padding: 10px 30px;
+}
+#sixth{
+    color: blue;
+    padding: 10px 30px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    left: 20px;
+}
+#fifth:hover{
+    color: #ffffff;
+    background-color: #000;
+    transition: 0.5s;
+}
+#sixth:hover{
+    color: #ffe6e6;
+    background-color:blue;
+    transition: 0.5s;
+}
+nav li a:hover{
+    color: blue;
+    transition: 0.5s;
+}
+.container-two{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border:1px solid #ccc;
+    line-height: 40px;
+    position: relative;
+    bottom: 150px;
+    background-color: white;
+    border-top: 2px solid blue;
+}
+.card #uk{
+    width: 300px;
+    position: relative;
+    right: 65px;
+}
+.card img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+.card img{
+    margin-bottom: 10px;
+}
+.card a{
+    color: blue;
+    text-decoration: none;
+
+}
+.img-two {
+   position: relative;
+   right:150px;
+}
+.intro-one{
+    float: right;
+    width: 300px;
+    line-height: 40px;
+}
+#ten{
+    color: blue;
+    font-size: 20px;
+}
+#eleven{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    width: 600px;
+}
+h3{
+    font-size: 30px;
+    line-height: 60px;
+    font-family:'Times New Roman', Times, serif;    
+    letter-spacing: 2px;
+    }
+#twelve{
+    width: 500px;
+}
+.container-four{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    position: relative;
+    left: 400px;
+    bottom: 250px;
+}
+.service{
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+}
+.service h2{
+    margin-bottom: 10px;
+}
+.service p{
+    margin-bottom: 0px;
+}
+.fa-solid {
+    position: relative;
+    bottom: 83px;
+    right: 40px;
+    font-size: 20px;
+    color: blue;
+
+}
+.fa-plane{
+    position: relative;
+    font-size: 20px;
+    color: blue;
+    right: 370px;
+
+}
+.our{
+border-radius: 30px;
+border: none;
+padding: 20px 30px;
+color: white;
+background-color: blue;
+position: relative;
+bottom: -50px;
+right: 350px;
+
+}
+.our:hover{
+    color:white;
+    background-color: #000;
+    transition: 0.5s;
+
+}
+.containers-of-8-divs{
+    width: 100%;
+    height: 1200px;
+    margin-top: -30px;
+    background-image: url(images/pokpedia.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.para-of-cont{
+    text-align: center;
+    line-height: 50px;
+    margin-top: 50px;
+}
+#para-one{
+    color: blue;
+}
+#para-two{
+    color: #ccc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#para-three{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: #ccc;
+}
+.font-container{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+.card-two{
+    width: 280px;
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid black;
+    line-height: 40px;
+    text-align: center;
+border-radius: 5px;
+position: relative;
+bottom: -100px;
+}
+.card-two h1{
+    color: white;
+
+}
+.card-two p{
+    color: rgb(83, 152, 196);
+}
+.font-container i{
+    font-size: 50px;
+    margin-top: 90px;
+    align-items: center;
+    position: relative;
+    left: 10px;
+}
+.font-container i:hover{
+    transform: scale(1.5);
+    transition: 0.3s;
+    color: #000;
+}
+#heading{
+    width: 600px;
+    position: relative;
+    right: 190px;
+}
+.container-five{
+    background-color: white;
+    width: 80%;
+    height: 180px;
+    border-radius: 0%;
+    border: 1px solid white;
+    margin-top: -40px;
+}
+.inline{
+   text-align: center;
+margin-top: 40px;
+line-height: 70px;
+}
+#pos{
+    color: rgb(179, 174, 174);
+    position: relative;
+    right: 80px;
+}
+.but-two{
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: white;
+    background-color: blue;
+    border: none;
+    position: relative;
+    left: 420px;
+    bottom: 140px;
+
+}
+.but-two:hover{
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+.fa-phone{
+    font-size: 50px;
+    position: relative;
+    right: 200px;
+    bottom: -50px;
+    
+}
+.fa-phone :hover{
+    transform: scale(1.5);
+    transition: 0.3s;
+    filter: brightness(70%);
+    color: #000;
+}
+span{
+    color: blue;
+}
+.outline{
+    text-align: center;
+    margin-top: 170px;
+    line-height: 50px;
+}
+#our{
+    color: blue;
+    font-size: 60px;
+}
+#for{
+    color: rgb(179, 174, 174);
+}
+#count{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img-container{
+    text-align: center;
+}
+#image-box:hover{
+    filter: brightness(70%);
+    transition: 0.4s;
+}
+#image-box{
+    margin: 0px 10px;
+}
+.container-img-one{
+    color: black;
+    width: 280px;
+    height: 100px;
+    background-color: white;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    left: 50px;
+    bottom: 30px;
+    border-radius: 5px;
+    border-bottom: 2px solid blue;
+}
+
+.container-img-two{
+    color: black;
+    width: 280px;
+    height: 100px;
+    background-color: white;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    left: 450px;
+    bottom: 130px;
+    border-radius: 5px;
+    border-bottom: 2px solid blue;
+}
+.container-img-three{
+    color: black;
+    width: 280px;
+    height: 100px;
+    background-color: white;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    left: 850px;
+    bottom: 230px;
+    border-radius: 5px;
+    border-bottom: 2px solid blue;
+}
+#tor{
+    color: rgb(82, 110, 236);
+}
+.para-four{
+    line-height: 50px;
+    width: 500px;
+    position: relative;
+    right: 290px;
+    margin-top: -70px;
+}
+#OUR{
+    color: blue;
+}
+.para-four h2{
+    color: rgb(179, 174, 174);
+}
+.para-four h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}   
+.para-four img{
+    position: relative;
+    left: 600px;
+    margin-top: -300px;
+    height: 500px;
+    object-fit: cover;
+}
+.container-eight{
+    font-family: sans-serif;
+
+}
+.progress-container{
+height: 20px;
+border-radius: 10px;
+background-color: #ddd;
+width: 100%;
+}
+.progress-bar{
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: blue;
+    line-height: 20px;
+    color: white;
+}
+.prog-one{
+    position: relative;
+    bottom: 200px;
+}
+.prog-three{
+    position: relative;
+    bottom: 200px;
+}
+.container-eight img{
+   width: 100%;
+   height: 300px;
+}
+#air-line{
+    color: white;
+    margin-top: -230px;
+    text-align: center;
+    line-height: 65px;
+}
+#air{
+    font-size: 60px;
+}
+#air-line h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container-nine img{
+    margin-top: 120px;
+position: relative;
+right: 300px;
+}
+.element-one{
+    position: relative;
+    left: 300px;
+    bottom: 500px;
+    line-height: 70px;
+}
+#plane{
+    color: blue;
+}
+#from{
+    font-size: 50px;
+    color: rgb(179, 174, 174);
+}
+ #bot{ 
+    width: 300px;
+    border: none;
+    height: 100px;
+    margin-top: 50px;
+    background-color: blue;
+    color: white;
+    border-radius: 6px;
+    
+}
+#bot:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+    background-color: black;
+}
+#bot-one{
+    width: 300px;
+    border: none;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    border-radius: 6px;
+    position: relative;
+    left: 40px;
+}
+
+#bot-one:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+    background-color: #000;
+}
+.container-ten{
+    background-color: rgb(211, 231, 240);
+    width: 100%;
+    margin-top: -170px;
+}
+.ques{
+    text-align: center;
+    line-height: 50px;
+    margin-top: 50px;
+}
+.ques h1{
+    color: black;
+}
+.ques #say{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 45px;
+}
+.ques p{
+    color: blue;
+}
+.flex-container{
+    display: flex;
+    justify-content: around;
+}
+.cards-one{
+    width: 350px;
+    margin: 0px 10px;
+    padding: 20px;
+    text-align: center;
+    position: relative; 
+     bottom: 150px;        
+    display: flex;
+    background-color: white;
+    height: 300px;
+    margin-top: 250px;
+    left: 130px;
+    
+}
+.cards-one img{
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+}
+.cards-one h1{
+    width: 1400px;
+    margin-top: 30px;
+    position: relative; 
+    font-size: 23px;
+}
+.cards-one #control-p{
+    margin-top: 60px;
+    position: relative;
+    right: 160px;
+    color: rgb(83, 152, 196);
+    width: 600px;
+}
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: blue;
+    margin-top: -100px;
+}
+#state-one{
+    color: white;
+    width: 200px;
+    position: relative;
+    left: 150px;
+    margin-top: 90px;  
+}
+#state-one h1{
+position: relative;
+bottom: 30px;
+font-size: 50px;
+}
+#state-two{
+    color: white;
+    position: relative;
+    margin-top: -250px;
+    left: 500px;  
+}
+#state-two h1{
+    font-size: 50px;
+    position: relative;
+
+}
+#add{
+    margin-top: 30px;
+}
+.state-three{
+color: white;
+margin-top: -300px;
+position: relative;
+left: 1000px;
+
+}
+.state-three h1{
+    font-size: 50px;
+    
+}
+.state-three p{
+    margin-top: 20px;
+    line-height: 30px;
+}
+.footer-two{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+.state-four{
+    color: white;
+text-align: center;
+margin-top: 15px;
+letter-spacing: 5px;
+}
+#ui{
+    width: 200px;
+    position: relative;
+    bottom: 300px;
+    right: 400px;
+    color: rgb(179, 174, 174);
+}
+#uli{
+    width: 200px;
+    position: relative;
+    bottom: 410px;
+    color: rgb(179, 174, 174); 
+    right: 30px;
+}
+#ulx{
+    width: 200px;
+    position: relative;
+    bottom: 520px;
+    left: 350px;
+    color: rgb(179, 174, 174);
+    }
+    .foot-icons{
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        margin-top: 40px;
+        letter-spacing: 10px;
+    }
+    .foot-icons:hover{
+color: rgb(255, 253, 253);
+transition: 0.5s;
+    }
+    
